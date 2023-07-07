@@ -42,7 +42,7 @@ const Homepage = () => {
               />
               <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents’ culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates' skills and potential, making informed and objective choices.
+                We use machine learning to profile talent, providing employers talents’ culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates skills and potential, making informed and objective choices.
               </span>
             </div>
 
@@ -56,7 +56,7 @@ const Homepage = () => {
               />
               <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents’ culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates' skills and potential, making informed and objective choices.
+                We use machine learning to profile talent, providing employers talents&apos; culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates&apos; skills and potential, making informed and objective choices.
               </span>
             </div>
 
@@ -70,7 +70,7 @@ const Homepage = () => {
               />
               <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents’ culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates' skills and potential, making informed and objective choices.
+                We use machine learning to profile talent, providing employers talents&apos; culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates&apos; skills and potential, making informed and objective choices.
               </span>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Homepage = () => {
             <div className="grid content-start gap-[40px]">
               <span className='text-[30px] text-[#076ABE] mt-20'>For Talents</span>
               <span className='text-[#4D4D4DCC] text-[24px] max-w-[600px]'>
-                Tired of endless job listings? Look no further! Showcase your skills, qualifications, and potential to employers through our talent profiling. We understand you're more than a resume, so we give you an assessment to understand your preferences and you can create a standout profile with your talents and abilities. Connect with valued employers, land your perfect opportunity and you can review them.
+                Tired of endless job listings? Look no further! Showcase your skills, qualifications, and potential to employers through our talent profiling. We understand you&apos;re more than a resume, so we give you an assessment to understand your preferences and you can create a standout profile with your talents and abilities. Connect with valued employers, land your perfect opportunity and you can review them.
               </span>
             </div>
           </div>
@@ -155,6 +155,77 @@ const Homepage = () => {
                   Connect and Hire Connect directly with the talents that align with your needs and invite them for interviews. By leveraging our profile talent service, you can streamline the hiring process and increase the likelihood of finding the perfect addition to your team.
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-[30px] mt-4 py-[50px] pb-[171px] lg:mt-[130px] bg-[url('/images/selfOnboard.svg')] bg-no-repeat bg-cover">
+          <span className='text-white max-w-[788px] mx-auto text-center text-[30px]'>
+            A 360 SERVICE - FROM RECRUITMENT TO EMPLOYEE COMMUNICATION AND MANAGEMENT
+          </span>
+          <span className='max-w-[1036px] mx-auto text-center leading-[184%] text-[white] text-[22px]'>
+            We not only help with recruiting the right talent. <br />s
+            Our HR 360 service covers from recruitment to employee retention. We help you Self-Onboard talents and add them to your TCOC company channel; sending them files and technology sign up like Slack and so on. We also foster a culture of collaboration and engagement through seamless communication mode, from company-wide announcements to team updates. Our 360 service provides efficient tools like knowing the time an employer resumes work, setting up their leave days and holidays.
+          </span>
+        </div>
+
+        <div className="grid -mt-[100px] max-screen-xl mx-auto lg:grid-flow-col justify-center gap-[100px]">
+          <Image 
+            src="/images/preview1.svg"
+            height={330}
+            width={330}
+            alt="Preview"
+            className='h-[330px] w-[330px]'
+          />
+          <Image 
+            src="/images/preview2.svg"
+            height={330}
+            width={330}
+            alt="Preview"
+            className='h-[330px] w-[330px]'
+          />
+          <Image 
+            src="/images/preview3.svg"
+            height={330}
+            width={330}
+            alt="Preview"
+            className='h-[330px] w-[330px]'
+          />
+        </div>
+
+        <div className="grid my-8 lg:my-[130px] max-w-screen-xl mx-auto w-full">
+          <span className='text-[36px] text-center text-[#4D4D4D]'>Trusted by</span>
+          <div className="grid grid-flow-col justify-between item-center">
+            <div className="grid">
+              <Image 
+                src="/images/trust1.svg"
+                width={250}
+                height={250}
+                alt="Trusts"
+                className='h-[250px] w-[250px]'
+              />
+              <span className='mt-[57px] text-center text-[20px] text-[#4D4D4D]'>Collaborator</span>
+            </div>
+
+            <div className="grid">
+              <Image 
+                src="/images/trust2.svg"
+                width={250}
+                height={250}
+                alt="Trusts"
+                className='h-[250px] w-[250px]'
+              />
+              <span className='mt-[57px] text-center text-[20px] text-[#4D4D4D]'>Collaborator</span>
+            </div>
+
+            <div className="grid">
+              <Image 
+                src="/images/trust3.svg"
+                width={250}
+                height={250}
+                alt="Trusts"
+                className='h-[250px] w-[250px]'
+              />
+              <span className='mt-[57px] text-center text-[20px] text-[#4D4D4D]'>Client</span>
             </div>
           </div>
         </div>
