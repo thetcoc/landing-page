@@ -54,9 +54,9 @@ const Homepage = () => {
                 className='h-[48px] w-[48px]'
                 alt="feats"
               />
-              <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
+              <span className='text-[#113C80] text-[26px] font-medium'>Self-Onboard Talent</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents&apos; culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates&apos; skills and potential, making informed and objective choices.
+                We provide a user-friendly platform to schedule meetings, share files, and communicate easily with new employees. Talents can easily navigate the onboarding process, ensuring efficient collaboration and effective communication from day one.
               </span>
             </div>
 
@@ -68,9 +68,9 @@ const Homepage = () => {
                 className='h-[48px] w-[48px]'
                 alt="feats"
               />
-              <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
+              <span className='text-[#113C80] text-[26px] font-medium'>Employee Clock-in</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents&apos; culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates&apos; skills and potential, making informed and objective choices.
+              With our innovative platform, you can effortlessly track employee attendance, efficiently manage leave days, and automate holiday scheduling, providing organizations with an efficient solution for workforce management.
               </span>
             </div>
           </div>
