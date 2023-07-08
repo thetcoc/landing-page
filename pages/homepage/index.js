@@ -42,7 +42,7 @@ const Homepage = () => {
               />
               <span className='text-[#113C80] text-[26px] font-medium'>Profile Talent</span>
               <span className='text-[24px] leading-[184%] text-[#4D4D4DCC] max-w-[367px]'>
-                We use machine learning to profile talent, providing employers talents’ culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates skills and potential, making informed and objective choices.
+                We use machine learning to profile talent, providing employers talents&apos; culture fit assessments for effective hiring decisions. With our innovative approach, employers understand candidates skills and potential, making informed and objective choices.
               </span>
             </div>
 
