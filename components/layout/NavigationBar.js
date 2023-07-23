@@ -8,7 +8,7 @@ const NavigationBar = ({navBarStyle}) => {
   return (
     <div className={`grid grid-flow-col text-white ${navBarStyle}`}>
         <div className="grid gap-4 grid-flow-col">
-            <span className='px-4 py-2 text-[18px]'>Services</span>
+            <Link href="/services" className='px-4 py-2 text-[18px]'>Services</Link>
             <Link href="/about" className='px-4 py-2 text-[18px]'>About</Link>
             <span className='px-4 py-2 text-[18px]'>Blog</span>
             <span className='px-4 py-2 text-[18px]'>Career</span>
