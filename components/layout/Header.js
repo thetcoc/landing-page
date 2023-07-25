@@ -18,7 +18,7 @@ const Header = () => {
             </Link>
         </div>
         <NavigationBar 
-          navBarStyle={router.pathname !== "/" && "text-black"}
+          navBarStyle={router.pathname !== "/" && "!text-black"}
         />
     </div>
   )

@@ -10,8 +10,8 @@ const NavigationBar = ({navBarStyle}) => {
         <div className="grid gap-4 grid-flow-col">
             <Link href="/services" className='px-4 py-2 text-[18px]'>Services</Link>
             <Link href="/about" className='px-4 py-2 text-[18px]'>About</Link>
-            <span className='px-4 py-2 text-[18px]'>Blog</span>
-            <span className='px-4 py-2 text-[18px]'>Career</span>
+            <Link href="/blog" className='px-4 py-2 text-[18px]'>Blog</Link>
+            <Link href="/career" className='px-4 py-2 text-[18px]'>Career</Link>
         </div>
         <div className="grid ml-8 grid-flow-col gap-4">
             <div className="grid px-8 py-2 gap-4 justify-center grid-flow-col bg-gradient-to-r from-fuchsia-700 via-purple-800 to-sky-600 rounded-[60px] items-center">

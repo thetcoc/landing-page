@@ -272,6 +272,29 @@ const Services = () => {
                 </div>
             </div>
         </div>
+
+        <div className="grid bg-[url('/images/services-bg.svg')] bg-cover bg-no-repeat">
+            <div className="grid max-w-screen-xl w-full justify-center mx-auto py-[70px]">
+                <span className='text-center text-[36px]'>Send us your recruitment and project brief</span>
+                <div className="grid mt-[40px] gap-[40px]">
+                    <div className="grid gap-[15px]">
+                        <span className='pl-8 text-gray-500 text-[18px]'>Full Name or Company Name<sup>*</sup></span>
+                        <input type="text" className='border-2 rounded-full p-4' />
+                    </div>
+                    <div className="grid gap-[15px]">
+                        <span className='pl-8 text-gray-500 text-[18px]'>Email<sup>*</sup></span>
+                        <input type="email" className='border-2 rounded-full p-4' />
+                    </div>
+                    <div className="grid gap-[15px]">
+                        <span className='pl-8 text-gray-500 text-[18px]'>Message<sup>*</sup></span>
+                        <textarea type="email" className='border-2 h-[301px] rounded-2xl p-8' />
+                    </div>
+                    <div className="mt-[30px] grid w-fit px-20 py-3 gap-4 justify-center grid-flow-col bg-gradient-to-r from-fuchsia-700 via-purple-800 to-sky-600 rounded-[60px] items-center">
+                        <span className='text-[22px] text-white'>Submit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </Layout>
   )
 }
