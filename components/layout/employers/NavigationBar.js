@@ -17,9 +17,9 @@ const NavigationBar = ({navBarStyle}) => {
             <div className="grid grid px-8 py-2 gap-4 justify-center grid-flow-col rounded-[60px] items-center">
                 <span className='text-[18px] text-[#076ABE] font-medium'>Login</span>
             </div>
-            <div className="grid px-8 py-2 gap-4 justify-center grid-flow-col bg-[#076ABE] rounded-[60px] items-center">
+            <Link href="/employers/register" className="grid px-8 py-2 gap-4 justify-center grid-flow-col bg-[#076ABE] rounded-[60px] items-center">
                 <span className='text-[18px] text-white'>Sign Up</span>
-            </div>
+            </Link>
         </div>
     </div>
   )
